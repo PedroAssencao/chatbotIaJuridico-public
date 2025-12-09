@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChatbotIaJuridico.Services.Meta\ChatbotIaJuridico.Services.Meta.csproj" />
+    <ProjectReference Include="..\ChatbotIaJuridico.Services.OpenAI\ChatbotIaJuridico.Services.OpenAI.csproj" />
+    <ProjectReference Include="..\ChatbotIaJuridico.Services.Storage\ChatbotIaJuridico.Services.Storage.csproj" />
+    <ProjectReference Include="..\ChatbotIaJuridico.Services\ChatbotIaJuridico.Services.csproj" />
+  </ItemGroup>
+
+</Project>

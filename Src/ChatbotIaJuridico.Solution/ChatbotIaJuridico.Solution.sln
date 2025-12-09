@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatbotIaJuridico.Domain", "ChatbotIaJuridico.Domain\ChatbotIaJuridico.Domain.csproj", "{34C03AB7-DFCD-49FA-B114-788D87146605}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatbotIaJuridico.Infra", "ChatbotIaJuridico.Infra\ChatbotIaJuridico.Infra.csproj", "{DDA2E0EA-2D6C-41EF-8087-B130107D400F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatbotIaJuridico.Services", "ChatbotIaJuridico.Services\ChatbotIaJuridico.Services.csproj", "{648E08F5-F8CE-4752-AF9B-21C04597D868}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatbotIaJuridico.API", "ChatbotIaJuridico.API\ChatbotIaJuridico.API.csproj", "{173D7BC0-FF03-4EF3-B103-40A188A6FABC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatbotIaJuridico.Infra.Meta", "ChatbotIaJuridico.Infra.Meta\ChatbotIaJuridico.Infra.Meta.csproj", "{7EC80FC9-B3CD-4325-8F04-A441BC1BC072}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatbotIaJuridico.Infra.Common", "ChatbotIaJuridico.Infra.Common\ChatbotIaJuridico.Infra.Common.csproj", "{62BB2C88-E90F-4C3B-B961-DCAD22A1D3F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatbotIaJuridico.Services.Meta", "ChatbotIaJuridico.Services.Meta\ChatbotIaJuridico.Services.Meta.csproj", "{2FCFE4C8-4D88-431F-9AE7-E37496172101}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatbotIaJuridico.Infra.Storage", "ChatbotIaJuridico.Infra.Storage\ChatbotIaJuridico.Infra.Storage.csproj", "{75D057AD-4094-4F8C-A065-9308D8D71867}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatbotIaJuridico.Services.Storage", "ChatbotIaJuridico.Services.Storage\ChatbotIaJuridico.Services.Storage.csproj", "{560E87CC-9A1C-41E8-9CA0-DDF99E962882}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastrucuture", "Infrastrucuture", "{75DFFCC7-9872-40B0-AE7E-000DB1561117}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B94BB986-CF74-4708-8E76-0F866379DC34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{F1BAA517-0A8E-47A5-B249-6E4F3777FEAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{2D6FBC49-1F5B-4183-BA2E-53D373C19A3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{9388E9B9-C301-4ADD-ABB7-D0994240329A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatbotIaJuridico.Infra.OpenAi", "ChatbotIaJuridico.Infra.OpenAi\ChatbotIaJuridico.Infra.OpenAi.csproj", "{19433269-7DE7-4C99-994B-39EF1272D4E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatbotIaJuridico.Services.OpenAI", "ChatbotIaJuridico.Services.OpenAI\ChatbotIaJuridico.Services.OpenAI.csproj", "{60D2974A-4520-4DF8-B61C-FAA7BF18A0B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34C03AB7-DFCD-49FA-B114-788D87146605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C03AB7-DFCD-49FA-B114-788D87146605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C03AB7-DFCD-49FA-B114-788D87146605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C03AB7-DFCD-49FA-B114-788D87146605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDA2E0EA-2D6C-41EF-8087-B130107D400F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDA2E0EA-2D6C-41EF-8087-B130107D400F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDA2E0EA-2D6C-41EF-8087-B130107D400F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDA2E0EA-2D6C-41EF-8087-B130107D400F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{648E08F5-F8CE-4752-AF9B-21C04597D868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{648E08F5-F8CE-4752-AF9B-21C04597D868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{648E08F5-F8CE-4752-AF9B-21C04597D868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{648E08F5-F8CE-4752-AF9B-21C04597D868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{173D7BC0-FF03-4EF3-B103-40A188A6FABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{173D7BC0-FF03-4EF3-B103-40A188A6FABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{173D7BC0-FF03-4EF3-B103-40A188A6FABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{173D7BC0-FF03-4EF3-B103-40A188A6FABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EC80FC9-B3CD-4325-8F04-A441BC1BC072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC80FC9-B3CD-4325-8F04-A441BC1BC072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC80FC9-B3CD-4325-8F04-A441BC1BC072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC80FC9-B3CD-4325-8F04-A441BC1BC072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62BB2C88-E90F-4C3B-B961-DCAD22A1D3F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62BB2C88-E90F-4C3B-B961-DCAD22A1D3F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62BB2C88-E90F-4C3B-B961-DCAD22A1D3F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62BB2C88-E90F-4C3B-B961-DCAD22A1D3F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FCFE4C8-4D88-431F-9AE7-E37496172101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FCFE4C8-4D88-431F-9AE7-E37496172101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FCFE4C8-4D88-431F-9AE7-E37496172101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FCFE4C8-4D88-431F-9AE7-E37496172101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75D057AD-4094-4F8C-A065-9308D8D71867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75D057AD-4094-4F8C-A065-9308D8D71867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75D057AD-4094-4F8C-A065-9308D8D71867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75D057AD-4094-4F8C-A065-9308D8D71867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{560E87CC-9A1C-41E8-9CA0-DDF99E962882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{560E87CC-9A1C-41E8-9CA0-DDF99E962882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{560E87CC-9A1C-41E8-9CA0-DDF99E962882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{560E87CC-9A1C-41E8-9CA0-DDF99E962882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19433269-7DE7-4C99-994B-39EF1272D4E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19433269-7DE7-4C99-994B-39EF1272D4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19433269-7DE7-4C99-994B-39EF1272D4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19433269-7DE7-4C99-994B-39EF1272D4E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60D2974A-4520-4DF8-B61C-FAA7BF18A0B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D2974A-4520-4DF8-B61C-FAA7BF18A0B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D2974A-4520-4DF8-B61C-FAA7BF18A0B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D2974A-4520-4DF8-B61C-FAA7BF18A0B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34C03AB7-DFCD-49FA-B114-788D87146605} = {F1BAA517-0A8E-47A5-B249-6E4F3777FEAC}
+		{DDA2E0EA-2D6C-41EF-8087-B130107D400F} = {75DFFCC7-9872-40B0-AE7E-000DB1561117}
+		{648E08F5-F8CE-4752-AF9B-21C04597D868} = {B94BB986-CF74-4708-8E76-0F866379DC34}
+		{173D7BC0-FF03-4EF3-B103-40A188A6FABC} = {2D6FBC49-1F5B-4183-BA2E-53D373C19A3C}
+		{7EC80FC9-B3CD-4325-8F04-A441BC1BC072} = {75DFFCC7-9872-40B0-AE7E-000DB1561117}
+		{62BB2C88-E90F-4C3B-B961-DCAD22A1D3F5} = {75DFFCC7-9872-40B0-AE7E-000DB1561117}
+		{2FCFE4C8-4D88-431F-9AE7-E37496172101} = {B94BB986-CF74-4708-8E76-0F866379DC34}
+		{75D057AD-4094-4F8C-A065-9308D8D71867} = {75DFFCC7-9872-40B0-AE7E-000DB1561117}
+		{560E87CC-9A1C-41E8-9CA0-DDF99E962882} = {B94BB986-CF74-4708-8E76-0F866379DC34}
+		{19433269-7DE7-4C99-994B-39EF1272D4E6} = {75DFFCC7-9872-40B0-AE7E-000DB1561117}
+		{60D2974A-4520-4DF8-B61C-FAA7BF18A0B9} = {B94BB986-CF74-4708-8E76-0F866379DC34}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A84B272D-AD89-43A6-B9B7-A633D4AA83AD}
+	EndGlobalSection
+EndGlobal
