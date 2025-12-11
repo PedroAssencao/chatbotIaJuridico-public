@@ -40,6 +40,33 @@ Certifique-se de ter instalado:
     ```
 2.  A API estará acessível (por padrão) em `http://localhost:5021` ou `https://localhost:7094`.
 3.  A documentação Swagger pode ser acessada em `/swagger` para testar os endpoints.
+  
+### 4. Configurando o Webhook do Meta (WhatsApp)
+
+1. Com a API **rodando**, inicie o **ngrok**:
+   ```bash
+   ex: ngrok http 5058
+   ```
+2. Pegue a URL gerada (ex.: `https://f0a2ab243a9b.ngrok-free.app`).
+3. Vá até **Meta for Developers** → Webhooks → Configure:
+
+```
+{URL_DO_NGROK}/api/v1/Meta/hook
+```
+
+Exemplo:
+```
+https://f0a2ab243a9b.ngrok-free.app/api/v1/Meta/hook
+```
+
+4. Na configuração do Webhook:
+   - Ative **"messages"**
+   - Use versão **v19.0 ou superior**
+
+Se tudo estiver correto, o webhook será validado automaticamente e o bot ficará ativo com o fluxo padrão criado pelo SQL.
+
+---
+
 
 ---
 
