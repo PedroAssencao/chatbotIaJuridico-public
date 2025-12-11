@@ -4,6 +4,11 @@ O **ChatbotIaJuridico** é uma solução de backend desenvolvida em **.NET 8.0**
 
 ---
 
+# 🎥 Demonstração
+https://github.com/user-attachments/assets/15b51c91-6ded-4f64-814a-20bec5fa3f35
+
+---
+
 ## 🛠️ Instalação
 
 Siga os passos abaixo para configurar e rodar o projeto localmente.
@@ -46,10 +51,15 @@ O sistema funciona principalmente através de webhooks e processamento em segund
 
 * **Webhook WhatsApp (`/api/v1/Meta/hook`)**: Ponto de entrada para mensagens enviadas por advogados e clientes. O sistema identifica o tipo de mensagem (texto, áudio, documento) e processa o contexto.
 * **Gestão de Estado (`EChatEstado`)**: O bot gerencia o fluxo da conversa através de estados definidos (ex: `AguardandoCpf`, `GerandoPeticao`, `AguardandoInsumos`), garantindo que a IA solicite as informações corretas no momento certo.
+* **Geração de parecer de acordo com o processo e cliente.
+* **Geração de storyline para uma melhor analise por parte do advogado.
+* **Busca automatica e online com ia para busca de jurispridencia.
+* **Gerencimaneto de processo e clientes.
 * **Processamento de Insumos**:
     * **Transcrição de Áudio/Vídeo**: Utiliza o modelo **Whisper** da OpenAI para transcrever áudios enviados via WhatsApp.
     * **Leitura de Documentos/Imagens**: Extrai texto de PDFs, DOCX e imagens para compor os fatos do processo.
 * **Geração de Petição**: Com base nos insumos coletados, o sistema utiliza o **GPT-4o** para redigir a petição inicial e a gera fisicamente em arquivos **.pdf** (via iTextSharp) e **.docx** (via OpenXML) na pasta `/arquivos`.
+* 
 
 ---
 
